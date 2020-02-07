@@ -6,6 +6,15 @@ package: Core
 # version: VERSION
 core: 8.x
 
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
 
 libraries:
   - renew/global-css
