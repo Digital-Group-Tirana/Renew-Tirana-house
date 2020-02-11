@@ -1,15 +1,15 @@
 name: Renew
+description: 'custom theme of the website'
 type: theme
 base theme: classy
-description: 'custom theme of the website'
 package: Core
 # version: VERSION
 core: 8.x
 
 regions:
-  navigation: 'Navigation'
+  top_bar: 'Top bar'
+  primary_menu: 'Primary menu'
   navigation_collapsible: 'Navigation (Collapsible)'
-  header: 'Top Bar'
   content: 'Content'
   sidebar: 'Sidebar'
   footer: 'Footer'

@@ -1,9 +1,71 @@
-/*
-@import 'variables';
-@import 'header';
-*/
+.region-header-renew {
+  display: flex;
+  flex-direction: column; }
+  .region-header-renew .top_bar {
+    background-color: #18191b;
+    padding: 5px; }
+    .region-header-renew .top_bar .container {
+      float: right; }
+      .region-header-renew .top_bar .container .contextual-region {
+        position: relative;
+        display: inline-block; }
+      .region-header-renew .top_bar .container .menu-item {
+        margin: 0;
+        padding-top: 0.2em;
+        padding-right: 10px;
+        display: inline-block;
+        color: #ffffff;
+        font-size: 15px;
+        font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+        font-weight: 600; }
+      .region-header-renew .top_bar .container a {
+        background-color: transparent;
+        color: #fff; }
+      .region-header-renew .top_bar .container #block-headernumber {
+        font-size: 12px;
+        font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+        font-weight: 600;
+        color: #ffffff; }
+      .region-header-renew .top_bar .container .fa-2x {
+        font-size: 1.5em;
+        color: #fff; }
+      .region-header-renew .top_bar .container ul.inline, .region-header-renew .top_bar .container ul.links.inline {
+        display: inline;
+        padding-left: 0;
+        float: right;
+        margin-bottom: 0px; }
+  .region-header-renew .site-logo {
+    float: left; }
+  .region-header-renew .region-navigation-renew {
+    background-color: #fab702;
+    padding: 20px;
+    float: right; }
+    .region-header-renew .region-navigation-renew .menu--main {
+      float: right;
+      display: inline-block;
+      padding-top: 20px; }
+      .region-header-renew .region-navigation-renew .menu--main .menu-item {
+        margin: 0;
+        padding-top: 0.2em;
+        padding-right: 5px;
+        display: inline-block;
+        font-size: 16px;
+        font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+        font-weight: 600;
+        color: #ffffff; }
+        .region-header-renew .region-navigation-renew .menu--main .menu-item .is-active {
+          color: #ffffff;
+          text-decoration: underline; }
+        .region-header-renew .region-navigation-renew .menu--main .menu-item a {
+          background-color: transparent;
+          padding: 10px;
+          color: #fff; }
+        .region-header-renew .region-navigation-renew .menu--main .menu-item a:hover {
+          background-color: #333333;
+          padding: 10px;
+          color: #fff; }
+
 .site-logo img {
-  width: 200px;
-}
+  width: 100px; }
 
 /*# sourceMappingURL=style.css.map */
