@@ -1,0 +1,30 @@
+uuid: 2e14e447-d8ac-493d-842d-8c36d1123612
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.architetti_block_view
+  module:
+    - system
+    - views
+  theme:
+    - renew
+id: views_block__architetti_block_view_block_1
+theme: renew
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:architetti_block_view-block_1'
+settings:
+  id: 'views_block:architetti_block_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /architetti
+    negate: false
+    context_mapping: {  }

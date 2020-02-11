@@ -2,6 +2,38 @@
 @import 'variables';
 @import 'header';
 */
-.site-logo img{
-    width: 200px;
+.region-header-renew {
+    background-color: #fab702;
+    width: 100%;
+   .contextual-region{        
+        display: inline-block;
+   
+        .site-logo{    
+            width: 20%;
+            margin-left: 8%;
+            img{
+                width: 100px;        
+            }
+    }
+        .menu{           
+            
+            list-style-type: none;          
+            padding: 0;
+            overflow: hidden;           
+            li{
+                float: right;  
+                             
+                a {
+                    display: inline-block; 
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+                a:hover {
+                    background-color: #111;
+                } 
+            }
+        }
+    }
 }

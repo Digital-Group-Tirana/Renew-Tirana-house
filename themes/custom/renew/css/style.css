@@ -2,8 +2,37 @@
 @import 'variables';
 @import 'header';
 */
-.site-logo img {
-  width: 200px;
+.region-header-renew {
+  background-color: #fab702;
+  width: 100%;
+}
+.region-header-renew .contextual-region {
+  display: inline-block;
+}
+.region-header-renew .contextual-region .site-logo {
+  width: 20%;
+  margin-left: 8%;
+}
+.region-header-renew .contextual-region .site-logo img {
+  width: 100px;
+}
+.region-header-renew .contextual-region .menu {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+.region-header-renew .contextual-region .menu li {
+  float: right;
+}
+.region-header-renew .contextual-region .menu li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.region-header-renew .contextual-region .menu li a:hover {
+  background-color: #111;
 }
 
 /*# sourceMappingURL=style.css.map */
