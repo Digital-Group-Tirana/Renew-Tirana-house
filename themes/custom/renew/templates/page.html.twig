@@ -77,8 +77,19 @@
   </main>
 
   {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
+    <footer role="contentinfo" class= "page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col 16 s12">
+              <h5 class="white-text">ULTIMI PROGETTI</h5>
+              <p class="grey-text text-lighten-4">Ristrutturazione appartamento di 135 mq a Napoli, Ponticelli</p>
+              <p class="grey-text text-lighten-4">Ristrutturazione appartamento di 67 mq a Roma, Centocelle</p>
+              <p class="grey-text text-lighten-4">Ristrutturazione appartamento di 90 mq a Napoli, Stazione Centrale</p>
+              <p class="grey-text text-lighten-4">Ristrutturazione appartamento di 85 mq a Milano, Arena Civica </p>
+            </div>
+               {{ page.footer }}
+          </div>
+        </div>
     </footer>
   {% endif %}
 

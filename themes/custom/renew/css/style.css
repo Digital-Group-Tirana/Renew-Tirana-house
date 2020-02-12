@@ -1,9 +1,26 @@
-/*
-@import 'variables';
-@import 'header';
-*/
+.region-header-renew {
+  display: flex;
+  flex-direction: row; }
+  .region-header-renew .nav {
+    float: right;
+    position: relative;
+    right: 0; }
+
+.page-footer {
+  background-color: #333333;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+a {
+  color: white; }
+
+html {
+  color: white; }
+
+.fa-2x {
+  font-size: 1.2em; }
+
 .site-logo img {
-  width: 200px;
-}
+  width: 200px; }
 
 /*# sourceMappingURL=style.css.map */
