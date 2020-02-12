@@ -1,0 +1,40 @@
+.block-views-blockprogetti-renew--block-1 {
+  width: 70%;
+  margin: auto;
+  background-color: #fff;
+  border: 5px solid #fab702;
+  padding: 0px 20px 30px 20px;
+
+  h2 {
+    color: #fab702 !important;
+    font-weight: 700;
+    font-size: 45px;
+  }
+
+  .field-content {
+    width: 90%;
+
+    img {
+      width: 100%;
+      height: auto;
+      z-index: 9999;
+    }
+
+    img:hover {
+      opacity: 0.2;
+      transition: 0.5s ease;
+      // background-color: rgba(0, 0, 0, 0.23);
+    }
+  }
+
+  .views-field-title {
+    width: 95%;
+
+    a {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+  }
+}

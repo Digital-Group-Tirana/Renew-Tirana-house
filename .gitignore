@@ -46,4 +46,7 @@
 /update.php
 /web.config
 /.vscode/
+<<<<<<< HEAD
 /themes/custom/renew/.sass-cache/
+=======
+>>>>>>> edad6310fc2c36c7e6852b199ab5a4996b9c7392

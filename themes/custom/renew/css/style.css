@@ -1,9 +1,39 @@
-/*
-@import 'variables';
-@import 'header';
-*/
-.site-logo img {
-  width: 200px;
-}
+.region-header-renew {
+  display: flex;
+  flex-direction: row; }
+  .region-header-renew .nav {
+    float: right;
+    position: relative;
+    right: 0; }
+
+.block-views-blockprogetti-renew--block-1 {
+  width: 70%;
+  margin: auto;
+  background-color: #fff;
+  border: 5px solid #fab702;
+  padding: 0px 20px 30px 20px; }
+  .block-views-blockprogetti-renew--block-1 h2 {
+    color: #fab702 !important;
+    font-weight: 700;
+    font-size: 45px; }
+  .block-views-blockprogetti-renew--block-1 .field-content {
+    width: 90%; }
+    .block-views-blockprogetti-renew--block-1 .field-content img {
+      width: 100%;
+      height: auto;
+      z-index: 9999; }
+    .block-views-blockprogetti-renew--block-1 .field-content img:hover {
+      opacity: 0.2;
+      transition: 0.5s ease; }
+  .block-views-blockprogetti-renew--block-1 .views-field-title {
+    width: 95%; }
+    .block-views-blockprogetti-renew--block-1 .views-field-title a {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333; }
+
+body {
+  background-color: #18191b; }
 
 /*# sourceMappingURL=style.css.map */
