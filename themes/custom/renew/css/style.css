@@ -6,6 +6,7 @@
     position: relative;
     right: 0; }
 
+<<<<<<< HEAD
 .block-views-blockprogetti-renew--block-1 {
   width: 70%;
   margin: auto;
@@ -35,5 +36,23 @@
 
 body {
   background-color: #18191b; }
+=======
+.page-footer {
+  background-color: #333333;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+a {
+  color: white; }
+
+html {
+  color: white; }
+
+.fa-2x {
+  font-size: 1.2em; }
+
+.site-logo img {
+  width: 200px; }
+>>>>>>> origin/footer
 
 /*# sourceMappingURL=style.css.map */
