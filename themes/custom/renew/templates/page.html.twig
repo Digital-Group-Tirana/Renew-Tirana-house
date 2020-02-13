@@ -39,14 +39,19 @@
  * @see html.html.twig
  */
 #}
+
 <div class="layout-container">
 
-  <header role="banner">
-    {{ page.header }}
-  
-  {{ page.secondary_menu }}
-  {{ page.primary_menu }}
-  
+  <header class="region-header-renew" role="banner">
+     <div class="top_bar">
+       <div class="container">
+         {{ page.top_bar }}
+       </div>
+     </div>
+
+     <div class="region-navigation-renew">
+       {{ page.primary_menu }}
+     </div>
   </header>
 
   {{ page.breadcrumb }}

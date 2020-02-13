@@ -1,9 +1,81 @@
 .region-header-renew{
-    display:flex;
-    flex-direction: row;
- .nav{
-     float:right;
-     position: relative;
-     right:0;
- }   
+    display: flex;
+    flex-direction: column;
+    .top_bar{
+        background-color: $background-color;
+        padding: 5px;
+        .container{
+            float: right;
+            .contextual-region {
+                position: relative;
+                display: inline-block;
+            }
+            .menu-item {
+                margin: 0;
+                padding-top: 0.2em;
+                padding-right: 10px;
+                display: inline-block;
+                color: #ffffff;
+                font-size: 15px;
+                font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+                font-weight: 600;
+            }
+            a {
+                background-color: transparent;
+                color: #fff;
+            }
+            #block-headernumber {
+                font-size: 12px;
+                font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+                font-weight: 600;
+                color: #ffffff;
+            }
+            .fa-2x {
+                font-size: 1.5em;
+                color: #fff;
+            }
+            ul.inline, ul.links.inline {
+                display: inline;
+                padding-left: 0;
+            
+            }
+        }
+    } 
+    .site-logo{
+        float: left;
+    } 
+    .region-navigation-renew{  
+        background-color: $primary-color;
+        padding: 20px;
+        float: right;
+        .menu--main{
+           
+            display: inline-block;
+            padding-top: 20px;
+            .menu-item {
+                margin: 0;
+                padding-top: 0.2em;
+                padding-right: 5px;
+                display: inline-block;
+                font-size: 16px;
+                font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+                font-weight: 600;
+                color: #ffffff;
+                .is-active{
+                    color: #ffffff;
+                    text-decoration: underline;
+                }
+                a {
+                    background-color: transparent;
+                    padding: 10px;
+                    color: #fff;
+                }
+                a:hover {
+                    background-color: #333333;
+                    padding: 10px;
+                    color: #fff;
+                }
+            }
+        }
+    }   
 }
