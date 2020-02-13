@@ -1,0 +1,17 @@
+uuid: e070e9d1-dd7f-4427-958b-3391de14b535
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Architetti
+type: architetti
+description: 'Content type Architeti  inside Architetti overview'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
