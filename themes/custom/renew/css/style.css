@@ -103,6 +103,66 @@ html {
       font-weight: bold;
       color: #333; }
 
+.block-webform-block {
+  width: 30%;
+  margin: auto; }
+  .block-webform-block h2 {
+    text-align: center; }
+  .block-webform-block .form-item-subtitle {
+    text-align: center;
+    font-size: 20px; }
+  .block-webform-block input {
+    padding: 16px; }
+  .block-webform-block label {
+    padding: 5px 0; }
+  .block-webform-block .webform-flex--container {
+    width: 70%; }
+    .block-webform-block .webform-flex--container .js-webform-flexbox {
+      width: 75%; }
+  .block-webform-block .webform-button--submit {
+    width: 100%;
+    background-color: #00508f;
+    color: #fff;
+    border: 0;
+    font-size: 20px; }
+  .block-webform-block .webform-submission-calcola-il-tuo-preventivo-form {
+    background-color: #cbcbcbcc;
+    padding: 10px 0 0 0; }
+  .block-webform-block .webform-flexbox {
+    padding: 10px 0;
+    margin: 0 10px; }
+  .block-webform-block .superfici {
+    border: 2px solid #fff;
+    border-bottom: none;
+    padding-left: 16px; }
+  .block-webform-block .contro {
+    border: 2px solid #fff;
+    border-bottom: none; }
+  .block-webform-block .condizione {
+    border: 2px solid #fff;
+    padding-left: 16px; }
+  .block-webform-block .webform-type-checkboxes {
+    margin: 20px 10px;
+    border: 2px solid #fff; }
+  .block-webform-block .js-webform-checkboxes {
+    display: block;
+    float: right;
+    width: 45%; }
+    .block-webform-block .js-webform-checkboxes .js-form-item {
+      display: block; }
+  .block-webform-block .form-composite > legend, .block-webform-block .label {
+    padding: 35px; }
+  .block-webform-block .messages {
+    position: absolute;
+    bottom: -90px;
+    width: 95%;
+    color: #325e1c;
+    border-color: #c9e1bd;
+    padding: 10px 15px;
+    border: 1px solid;
+    background: transparent;
+    box-shadow: none; }
+
 body {
   background-color: #18191b; }
 
