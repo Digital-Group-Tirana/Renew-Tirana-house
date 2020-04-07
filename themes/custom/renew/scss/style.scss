@@ -12,3 +12,15 @@ body {
     width: 100px;
 }
   
+
+.form-required{
+  display: flex;
+}
+.form-item{
+  display: flex;
+  flex-direction: row;
+}
+.form-controll{
+  border: 1px solid #ccc;
+  background: #f8f8f8 none;
+}

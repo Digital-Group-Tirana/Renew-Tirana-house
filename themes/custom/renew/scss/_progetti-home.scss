@@ -5,10 +5,18 @@
   border: 5px solid #fab702;
   padding: 0px 20px 30px 20px;
 
-  h2 {
-    color: #fab702 !important;
-    font-weight: 700;
-    font-size: 45px;
+  .contextual-region {
+    padding: 20px;
+    line-height: 1em;
+    padding: 20px;
+    line-height: 1em;
+    a{
+      font-size:18px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+
+    }
   }
 
   .field-content {
@@ -27,14 +35,5 @@
     }
   }
 
-  .views-field-title {
-    width: 95%;
-
-    a {
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-      color: #333;
-    }
-  }
+  
 }

@@ -82,10 +82,16 @@ html {
   background-color: #fff;
   border: 5px solid #fab702;
   padding: 0px 20px 30px 20px; }
-  .block-views-blockprogetti-renew--block-1 h2 {
-    color: #fab702 !important;
-    font-weight: 700;
-    font-size: 45px; }
+  .block-views-blockprogetti-renew--block-1 .contextual-region {
+    padding: 20px;
+    line-height: 1em;
+    padding: 20px;
+    line-height: 1em; }
+    .block-views-blockprogetti-renew--block-1 .contextual-region a {
+      font-size: 18px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold; }
   .block-views-blockprogetti-renew--block-1 .field-content {
     width: 90%; }
     .block-views-blockprogetti-renew--block-1 .field-content img {
@@ -95,13 +101,6 @@ html {
     .block-views-blockprogetti-renew--block-1 .field-content img:hover {
       opacity: 0.2;
       transition: 0.5s ease; }
-  .block-views-blockprogetti-renew--block-1 .views-field-title {
-    width: 95%; }
-    .block-views-blockprogetti-renew--block-1 .views-field-title a {
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-      color: #333; }
 
 .block-webform-block {
   width: 30%;
@@ -168,5 +167,16 @@ body {
 
 .site-logo img {
   width: 100px; }
+
+.form-required {
+  display: flex; }
+
+.form-item {
+  display: flex;
+  flex-direction: row; }
+
+.form-controll {
+  border: 1px solid #ccc;
+  background: #f8f8f8 none; }
 
 /*# sourceMappingURL=style.css.map */
