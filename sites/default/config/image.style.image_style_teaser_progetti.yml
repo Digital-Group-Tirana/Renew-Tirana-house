@@ -1,0 +1,15 @@
+uuid: f007a1eb-2166-4f7b-b07b-f0188f21b8a3
+langcode: en
+status: true
+dependencies: {}
+name: image_style_teaser_progetti
+label: "Image style teaser progetti"
+effects:
+  ca02c8f6-4677-4993-9bb1-bade14944828:
+    uuid: ca02c8f6-4677-4993-9bb1-bade14944828
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 278
+      height: 198
+      anchor: center-center

@@ -1,8 +1,0 @@
-uuid: 84d3a50c-4f36-415e-8dab-2db4e69c8c53
-langcode: en
-status: true
-dependencies: {  }
-id: secondary-menu
-label: 'Secondary menu'
-description: 'Contact links'
-locked: false

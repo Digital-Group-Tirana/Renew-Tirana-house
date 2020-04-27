@@ -1,0 +1,15 @@
+uuid: f2b44cf0-e523-411f-a313-d1f40945cd31
+langcode: en
+status: true
+dependencies: {}
+name: image_style_teaser_blog
+label: "Image style teaser blog"
+effects:
+  ccfeb9c8-42f0-4314-a10e-7aa63f53d4d8:
+    uuid: ccfeb9c8-42f0-4314-a10e-7aa63f53d4d8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 322
+      height: 201
+      anchor: center-center
